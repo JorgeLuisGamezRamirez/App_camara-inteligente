@@ -1,0 +1,11 @@
+{
+  "name": "Cámara Inteligente Android",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": ["fwcd.kotlin", "vscjava.vscode-java-pack"]
+    }
+  },
+  "postCreateCommand": "./gradlew --no-daemon tasks",
+  "remoteUser": "vscode"
+}
